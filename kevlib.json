@@ -1,6 +1,6 @@
 {
-    "class": "root:org.kevoree.ContainerRoot@0.72021992732446251497376456407",
-    "generated_KMF_ID": "0.72021992732446251497376456407",
+    "class": "root:org.kevoree.ContainerRoot@0.225223653824206281497379846139",
+    "generated_KMF_ID": "0.225223653824206281497379846139",
     "nodes": [],
     "repositories": [],
     "hubs": [],
@@ -18,7 +18,7 @@
                     "name": "UpdateInject",
                     "version": "1",
                     "deployUnits": [
-                        "/packages[kevoree]/deployUnits[hashcode=b254a60e31f1951b24d97eccb443d50b,name=kevoree-comp-update-inject,version=1.0.0-alpha]"
+                        "/packages[kevoree]/deployUnits[hashcode=e42567c0529b52dd12cea27f630c4b6e,name=kevoree-comp-update-inject,version=1.0.0-alpha.0]"
                     ],
                     "superTypes": [],
                     "dictionaryType": [
@@ -62,11 +62,11 @@
             ],
             "deployUnits": [
                 {
-                    "class": "org.kevoree.DeployUnit@hashcode=b254a60e31f1951b24d97eccb443d50b,name=kevoree-comp-update-inject,version=1.0.0-alpha",
+                    "class": "org.kevoree.DeployUnit@hashcode=e42567c0529b52dd12cea27f630c4b6e,name=kevoree-comp-update-inject,version=1.0.0-alpha.0",
                     "name": "kevoree-comp-update-inject",
-                    "hashcode": "b254a60e31f1951b24d97eccb443d50b",
+                    "hashcode": "e42567c0529b52dd12cea27f630c4b6e",
                     "url": "",
-                    "version": "1.0.0-alpha",
+                    "version": "1.0.0-alpha.0",
                     "requiredLibs": [],
                     "filters": [
                         {
