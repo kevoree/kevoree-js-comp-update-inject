@@ -1,0 +1,9 @@
+add node0: JavascriptNode/LATEST/LATEST
+add node0.update: UpdateInject/1/{ js: '1.0.0-alpha' }
+add sync: CentralizedWSGroup/LATEST/LATEST
+
+attach node0 sync
+
+set sync.isMaster/node0 = 'true'
+
+network node0.ip.lo 127.0.0.1

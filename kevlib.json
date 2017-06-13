@@ -1,0 +1,82 @@
+{
+    "class": "root:org.kevoree.ContainerRoot@0.72021992732446251497376456407",
+    "generated_KMF_ID": "0.72021992732446251497376456407",
+    "nodes": [],
+    "repositories": [],
+    "hubs": [],
+    "mBindings": [],
+    "groups": [],
+    "packages": [
+        {
+            "class": "org.kevoree.Package@kevoree",
+            "name": "kevoree",
+            "packages": [],
+            "typeDefinitions": [
+                {
+                    "class": "org.kevoree.ComponentType@name=UpdateInject,version=1",
+                    "abstract": "false",
+                    "name": "UpdateInject",
+                    "version": "1",
+                    "deployUnits": [
+                        "/packages[kevoree]/deployUnits[hashcode=b254a60e31f1951b24d97eccb443d50b,name=kevoree-comp-update-inject,version=1.0.0-alpha]"
+                    ],
+                    "superTypes": [],
+                    "dictionaryType": [
+                        {
+                            "class": "org.kevoree.DictionaryType@0.0",
+                            "generated_KMF_ID": "0.0",
+                            "attributes": [
+                                {
+                                    "class": "org.kevoree.DictionaryAttribute@kevs",
+                                    "fragmentDependant": "false",
+                                    "optional": "true",
+                                    "name": "kevs",
+                                    "state": "false",
+                                    "datatype": "STRING",
+                                    "defaultValue": "",
+                                    "genericTypes": []
+                                },
+                                {
+                                    "class": "org.kevoree.DictionaryAttribute@filter",
+                                    "fragmentDependant": "false",
+                                    "optional": "true",
+                                    "name": "filter",
+                                    "state": "false",
+                                    "datatype": "STRING",
+                                    "defaultValue": "",
+                                    "genericTypes": []
+                                }
+                            ]
+                        }
+                    ],
+                    "metaData": [
+                        {
+                            "class": "org.kevoree.Value@description",
+                            "name": "description",
+                            "value": "Kevoree component that injects a KevScript in the current model based on a filter parameter"
+                        }
+                    ],
+                    "required": [],
+                    "provided": []
+                }
+            ],
+            "deployUnits": [
+                {
+                    "class": "org.kevoree.DeployUnit@hashcode=b254a60e31f1951b24d97eccb443d50b,name=kevoree-comp-update-inject,version=1.0.0-alpha",
+                    "name": "kevoree-comp-update-inject",
+                    "hashcode": "b254a60e31f1951b24d97eccb443d50b",
+                    "url": "",
+                    "version": "1.0.0-alpha",
+                    "requiredLibs": [],
+                    "filters": [
+                        {
+                            "class": "org.kevoree.Value@platform",
+                            "name": "platform",
+                            "value": "js"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
