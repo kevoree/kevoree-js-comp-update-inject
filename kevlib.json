@@ -1,6 +1,6 @@
 {
-    "class": "root:org.kevoree.ContainerRoot@0.225223653824206281497379846139",
-    "generated_KMF_ID": "0.225223653824206281497379846139",
+    "class": "root:org.kevoree.ContainerRoot@0.34821150025948481497451472098",
+    "generated_KMF_ID": "0.34821150025948481497451472098",
     "nodes": [],
     "repositories": [],
     "hubs": [],
@@ -13,12 +13,12 @@
             "packages": [],
             "typeDefinitions": [
                 {
-                    "class": "org.kevoree.ComponentType@name=UpdateInject,version=1",
+                    "class": "org.kevoree.ComponentType@name=UpdateInject,version=2",
                     "abstract": "false",
                     "name": "UpdateInject",
-                    "version": "1",
+                    "version": "2",
                     "deployUnits": [
-                        "/packages[kevoree]/deployUnits[hashcode=e42567c0529b52dd12cea27f630c4b6e,name=kevoree-comp-update-inject,version=1.0.0-alpha.0]"
+                        "/packages[kevoree]/deployUnits[hashcode=cd140f4f96b99d8a758ddbd6c008c07d,name=kevoree-comp-update-inject,version=1.0.0-alpha.1]"
                     ],
                     "superTypes": [],
                     "dictionaryType": [
@@ -62,11 +62,11 @@
             ],
             "deployUnits": [
                 {
-                    "class": "org.kevoree.DeployUnit@hashcode=e42567c0529b52dd12cea27f630c4b6e,name=kevoree-comp-update-inject,version=1.0.0-alpha.0",
+                    "class": "org.kevoree.DeployUnit@hashcode=cd140f4f96b99d8a758ddbd6c008c07d,name=kevoree-comp-update-inject,version=1.0.0-alpha.1",
                     "name": "kevoree-comp-update-inject",
-                    "hashcode": "e42567c0529b52dd12cea27f630c4b6e",
+                    "hashcode": "cd140f4f96b99d8a758ddbd6c008c07d",
                     "url": "",
-                    "version": "1.0.0-alpha.0",
+                    "version": "1.0.0-alpha.1",
                     "requiredLibs": [],
                     "filters": [
                         {

@@ -1,6 +1,6 @@
 {
   "name": "kevoree-comp-update-inject",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha.1",
   "description": "Kevoree component that injects a KevScript in the current model based on a filter parameter",
   "main": "./lib/UpdateInject.js",
   "scripts": {
